@@ -25,7 +25,7 @@ const manrope = Manrope({
   display: "swap",
 });
 
-const siteUrl = "https://4sezona.beauty";
+const siteUrl = "https://w1teen8.github.io/4sezona";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
