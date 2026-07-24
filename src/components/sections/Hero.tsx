@@ -135,25 +135,27 @@ export default function Hero() {
         >
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col items-center">
-              {stat.kind === "rating" && (
-                <div className="flex gap-0.5 text-gold">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} size={16} fill="currentColor" strokeWidth={0} />
-                  ))}
-                </div>
-              )}
-              {stat.kind === "counter" && (
-                <AnimatedCounter
-                  value={stat.value as number}
-                  suffix={stat.suffix}
-                  className="font-display text-2xl text-ink"
-                />
-              )}
-              {stat.kind === "text" && (
-                <span className="font-display text-2xl text-ink">
-                  {stat.value}
-                </span>
-              )}
+              <div className="flex h-9 items-center justify-center">
+                {stat.kind === "rating" && (
+                  <div className="flex gap-0.5 text-gold">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star key={i} size={16} fill="currentColor" strokeWidth={0} />
+                    ))}
+                  </div>
+                )}
+                {stat.kind === "counter" && (
+                  <AnimatedCounter
+                    value={stat.value as number}
+                    suffix={stat.suffix}
+                    className="font-display text-2xl leading-none text-ink"
+                  />
+                )}
+                {stat.kind === "text" && (
+                  <span className="font-display text-2xl leading-none text-ink">
+                    {stat.value}
+                  </span>
+                )}
+              </div>
               <span className="mt-2 font-sans text-[11px] uppercase tracking-[0.15em] text-ink-soft">
                 {stat.label}
               </span>
