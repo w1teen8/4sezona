@@ -1,0 +1,12 @@
+[
+  { "id": "g1", "category": "Манікюр", "title": "Мінімалістична естетика", "image": "", "size": "tall" },
+  { "id": "g2", "category": "Волосся", "title": "Авторський балаяж", "image": "", "size": "wide" },
+  { "id": "g3", "category": "До / Після", "title": "Трансформація кольору", "image": "", "size": "square", "beforeAfter": true },
+  { "id": "g4", "category": "Брови", "title": "Архітектура форми", "image": "", "size": "square" },
+  { "id": "g5", "category": "Макіяж", "title": "Вечірній образ", "image": "", "size": "tall" },
+  { "id": "g6", "category": "Манікюр", "title": "Французька класика", "image": "", "size": "square" },
+  { "id": "g7", "category": "До / Після", "title": "Оновлення стрижки", "image": "", "size": "wide", "beforeAfter": true },
+  { "id": "g8", "category": "Волосся", "title": "Текстурна стрижка", "image": "", "size": "square" },
+  { "id": "g9", "category": "Макіяж", "title": "Природне сяйво", "image": "", "size": "square" },
+  { "id": "g10", "category": "Брови", "title": "Ламінування та форма", "image": "", "size": "tall" }
+]

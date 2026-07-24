@@ -1,0 +1,56 @@
+[
+  {
+    "id": "olena",
+    "name": "Олена Марченко",
+    "role": "Майстер манікюру",
+    "experience": "9 років досвіду",
+    "instagram": "https://instagram.com/",
+    "image": "",
+    "initials": "ОМ"
+  },
+  {
+    "id": "kateryna",
+    "name": "Катерина Войтенко",
+    "role": "Стиліст-перукар",
+    "experience": "12 років досвіду",
+    "instagram": "https://instagram.com/",
+    "image": "",
+    "initials": "КВ"
+  },
+  {
+    "id": "yulia",
+    "name": "Юлія Северин",
+    "role": "Колорист",
+    "experience": "8 років досвіду",
+    "instagram": "https://instagram.com/",
+    "image": "",
+    "initials": "ЮС"
+  },
+  {
+    "id": "maryna",
+    "name": "Марина Гнатюк",
+    "role": "Броу-майстер",
+    "experience": "6 років досвіду",
+    "instagram": "https://instagram.com/",
+    "image": "",
+    "initials": "МГ"
+  },
+  {
+    "id": "anna",
+    "name": "Анна Ковальська",
+    "role": "Косметолог",
+    "experience": "10 років досвіду",
+    "instagram": "https://instagram.com/",
+    "image": "",
+    "initials": "АК"
+  },
+  {
+    "id": "sofia",
+    "name": "Софія Дацюк",
+    "role": "Візажист",
+    "experience": "7 років досвіду",
+    "instagram": "https://instagram.com/",
+    "image": "",
+    "initials": "СД"
+  }
+]
